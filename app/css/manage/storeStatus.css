@@ -1,0 +1,419 @@
+.ml-30{
+    margin-left: 30px;
+}
+.statusWrap{
+    width: 1556px;
+    height: auto;
+    margin-top: 30px;
+    background: #fff;
+    margin-left: -10px;
+}
+.color333{
+    color: #333;
+}
+.topTitleWrap{
+    padding: 30px;
+}
+
+.StoreTopText{
+    font-size: 30px;
+    color: #157EFB;
+}
+
+.storeSearchWrap{
+    margin-right: 20px;
+}
+
+.storeStatusSeacrch{
+    width: 340px;
+    height: 36px;
+    border: 1px solid #C7C7CC;
+    border-radius: 5px;
+    text-indent: 11%;
+} 
+
+.storeSeacrchBtn{
+    width: 88px;
+    height: 36px;
+    color: #fff;
+    background: #157EFB;
+    font-size: 14px;
+    line-height : 36px;
+    text-align: center;
+}
+.searImg{
+    width: 20px;
+    height: 20px;
+    top: 8px;
+    left: 10px;
+}
+.storeRefImg{
+    width: 36px;
+    height: 36px;
+    background-color: #0771EF;
+    text-align: center;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.refrechImg{
+    margin: auto;
+    height: 14px;
+    line-height: 36px;
+    margin-top: 10px;
+}
+
+.center36{
+    line-height : 36px;
+    text-align: center;
+}
+
+.storeStatusTypeWrap{
+    margin-left: 30px;
+    width: 50%;
+    justify-content: space-between;
+}
+.storeUseType{
+    width: 150px;
+}
+.useDetailText{
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+.statusBtnWrap{
+    justify-content: space-between;
+    width: 60%;
+    align-items: baseline;
+}
+.uBtnAll{
+    background-image: linear-gradient(90deg, #595AD3 20% , #157EFB 80%);
+    color: #fff;
+    width: 45px;
+    display: flex;
+    font-size: 14px;
+    justify-content: center;
+    border-radius: 5px;
+}
+.uBtnNew{
+    background-color: rgba(252, 76, 130, 0.2);
+    color: #FC4C82;
+    border: 1px solid #FC4C82;
+    width: 45px;
+    display: flex;
+    font-size: 14px;
+    justify-content: center;
+    border-radius: 5px;
+}
+.uBtnWork{
+    width: 75px;
+    display: flex;
+    font-size: 14px;
+    justify-content: center;
+    border-radius: 5px;
+    background-color: rgba(253, 148, 38, 0.2);
+    color: #FD9426;
+    border: 1px solid #FD9426;
+}
+.uBtnMNeed{
+    width: 130px;
+    display: flex;
+    font-size: 14px;
+    justify-content: center;
+    border-radius: 5px;
+    background-color: rgba(89, 90, 211, 0.2);
+    color: #595AD3;
+    border: 1px solid #595AD3;
+}
+.uBtnClose{
+    background-color: rgba(31, 31, 33, 0.2);
+    color: #1F1F21;
+    border: 1px solid #1F1F21;
+    width: 45px;
+    display: flex;
+    font-size: 14px;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.userTable{
+    margin-top: 30px;
+    width: 1536px;
+    height: auto;
+    background-color: #fff;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    color: #333;
+    font-size: 13px;
+    margin-left: 10px;
+    padding-bottom: 20px;
+}
+.userTr{
+    width: 100%;
+    height: 43px;
+    background-color: #EAF2FD;
+    border: 1px solid #2461BF;
+    color: #2461BF;
+}
+.uTRr{
+    border: 1px solid #BDBEC2;
+}
+.uTr{
+    border: 1px solid #BDBEC2;
+    border-top: none;
+    border-bottom: none;
+}
+.uTrL{
+    border: 1px solid #BDBEC2;
+    border-top: none;
+    border-left: none;
+    border-bottom: none;
+}
+.bizDetailWrap{
+    background-color: #1377C9;
+    color: #fff;
+    width: 60px;
+    height: 26px;
+    font-size: 11px;
+    border-radius: 10px;
+    justify-content: center;
+    margin-left: 5px;
+}
+.bizArrowImg{
+    height: 20px;
+    width: 20px;
+    margin-top: 2px;
+    margin-left: 2px;
+}
+.tableTr{
+    height: 46px;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.textBlue{
+    color: #4676FB;
+    font-size: 14px;
+}
+.imgWrap{
+    display: flex;
+    margin: 0 auto;
+    height: 12px;
+}
+
+
+
+/* 임차조건 팝업 START */
+.areaChage{
+    background-color: #FDEAEA;
+    color: #C74644;
+    width: 35px;
+    justify-content: center;
+    border-radius: 10px;
+}
+.leaseText{
+    top: 0;
+    left: 120px;
+}
+/* 임차조건 팝업 END */
+
+/* 계좌등록 팝업 START */
+.accPop{
+    border: 1px solid #ddd;
+    background: white;
+    border-radius: 15px;
+    height: 620px;
+    width: 386px;
+    padding: 28px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+    top: -50%;
+    position: relative;
+    margin: auto;
+}
+.accPopTypeWrap{
+    width: 100%;
+    height: 87px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+}
+.accPopType{
+    height: 35px;
+    justify-content: space-between;
+    margin-top: 10px;
+    border-bottom: 1px solid #ddd;
+    font-size: 13px;
+}
+.fileUpload1{
+    width: 100%;
+    height: 70px;
+    background-color: #FFF5EB;
+    border: 1px solid #4676FB;
+    border-radius: 10px;
+    margin-top: 10px;
+    font-size: 13px;
+    color: #000;
+}
+.fileImgWrap1{
+    justify-content: center;
+    margin-top: 22px;
+}
+.fileUpload2{
+    width: 100%;
+    height: 42px;
+    background-color: #FFF5EB;
+    border: 1px solid #4676FB;
+    border-radius: 10px;
+    margin-top: 10px;
+    font-size: 13px;
+    color: #000;
+}
+.fileImgWrap2{
+    margin-left: 22px;
+    margin-top: 6px;
+}
+/* 계좌등록 팝업 END */
+
+/* 계좌정보 START */
+.accInfoPop{
+    border: 1px solid #ddd;
+    background: white;
+    border-radius: 15px;
+    height: 530px;
+    width: 760px;
+    padding: 28px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+    top: -50%;
+    position: relative;
+    margin: auto;
+}
+.accTitle{
+    margin-left: 43%;
+    font-size: 16px;
+    color: #000;
+    font-weight: 900;
+}
+.bankRegiTextWrap{
+    width: 100%;
+    height: 35px;
+    color: #000;
+    font-size: 16px;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    align-items: center;
+}
+.bankCount{
+    color: #4676FB;
+    font-size: 13px;
+}
+.accRegisterBtn{
+    width: 100px;
+    height: 35px;
+    border: 2px solid #4676FB;
+    border-radius: 10px;
+    line-height: 35px;
+    text-align: center;
+    font-size: 13px;
+}
+.accInfoDetailWrap{
+    width: 700px;
+    height: 316px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    overflow: scroll;
+    padding: 10px;
+    overflow-x: hidden;
+}
+
+.accInfoDetailWrap::-webkit-scrollbar {
+    width: 5px;
+}
+.accInfo{
+    font-size: 13px;
+    justify-content: center;
+    margin-top: 10px;
+
+}
+.accInfoTrTitle{
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #DDDDDD;
+    height: 45px;
+    color: #333333;
+    font-weight: 900;
+}
+.accInfoThDetail{
+    border-bottom: 1px solid #DDDDDD;
+    height: 45px;
+    color: #333333;
+}
+.accInfoFix{
+    justify-content: space-evenly;
+    margin-top: 9px;
+}
+.accShowText{
+    color: #4676FB;
+}
+/* 계좌정보 END */
+
+
+/* 점주서류 등록 팝업 START */
+.ownerPaper{
+    border: 1px solid #ddd;
+    background: white;
+    border-radius: 15px;
+    height: 710px;
+    width: 386px;
+    padding: 28px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+    top: -50%;
+    position: relative;
+    margin: auto;
+}
+.ownerPaperTypeWrap{
+    width: 100%;
+    height: 87px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+}
+.accPopType{
+    height: 35px;
+    justify-content: space-between;
+    margin-top: 10px;
+    border-bottom: 1px solid #ddd;
+    font-size: 13px;
+}
+.fileUpload1{
+    width: 100%;
+    height: 70px;
+    background-color: #FFF5EB;
+    border: 1px solid #4676FB;
+    border-radius: 10px;
+    margin-top: 10px;
+    font-size: 13px;
+    color: #000;
+}
+.fileImgWrap1{
+    justify-content: center;
+    margin-top: 22px;
+}
+.fileUpload2{
+    width: 100%;
+    height: 42px;
+    background-color: #FFF5EB;
+    border: 1px solid #4676FB;
+    border-radius: 10px;
+    margin-top: 10px;
+    font-size: 13px;
+    color: #000;
+}
+.fileImgWrap2{
+    margin-left: 22px;
+    margin-top: 6px;
+}
+/* 점주서류 등록 END */

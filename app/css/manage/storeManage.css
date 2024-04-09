@@ -1,0 +1,562 @@
+
+.popInput{
+    border : 1px solid #ccc;
+    width: 155px;
+    height: 26px;
+    
+}
+input::placeholder{
+    color: #333;
+    padding-left: 5px;
+    opacity: 0.3;
+}
+textarea{
+    border : 1px solid #ccc;
+    width: 155px;
+    height: 47px;
+}
+textarea{
+    border : 1px solid #ccc;
+
+}
+
+.d-flex{ 
+    display: flex;
+}
+
+.justifyCenter {
+    justify-content: center;
+}
+
+
+
+.mr-10{
+    margin-right: 10px;
+}
+
+.regiPop{
+    border: 1px solid #ddd;
+    background: white;
+    border-radius: 15px;
+    height: 490px;
+    width: 386px;
+    padding: 28px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+    top: -50%;
+    position: relative;
+    margin: auto;
+}
+
+.mt-15{
+    margin-top: 15px;
+}
+.inputSpaceBetween{
+    padding: 10px;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ddd;
+    color: #333;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+/* 팝업 거래처 등록 START */
+.regiTitle{
+    margin-left: 34%;
+    font-size: 16px;
+    color: #000;
+    font-weight: 900;
+}
+.regiClose{
+    font-size: 16px;
+    color: #000;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.blackLine{
+    width: 100%;
+    height: 1px;
+    background: #000;
+}
+
+.regiDetailWrap{
+    width: 328px;
+    height: 316px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    overflow: scroll;
+    padding: 10px;
+    overflow-x: hidden;
+}
+
+.regiDetailWrap::-webkit-scrollbar {
+    background: #ddd;
+    border-radius: 10px;
+    width: 4px;
+}
+
+.regiPopBtnWrap{
+    margin-top: 25px;
+}
+
+.regiPopBtn{
+    width: 120px;
+    height: 40px;
+}
+
+.cloBtn{
+    border: 2px solid #4676FB;
+    border-radius: 10px;
+    color: #000;
+}
+
+.regiBtn{
+    color: #fff;
+    background-color: #4676FB;
+    border-radius: 10px;
+}
+/* 팝업 거래처 등록 END */
+
+/* 매장 관리 START */
+.storeInfo{
+    width: 450px;
+    height: 645px;
+    border: 1px solid #D1D5DC;
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 20px;
+}
+.manaInput{
+    width: 155px;
+    height: 26px;
+    border: 1px solid #D1D5DC;
+    border-radius: 5px;
+    background-color: #fff;
+    
+}
+.storeTypeOpton{
+    width: 155px;
+    height: 26px;
+    border: 1px solid #D1D5DC;
+    border-radius: 5px;
+    background-color: #fff;
+}
+.storeBox{
+    width: 100%;
+    height: 34px;
+    border-bottom: 1px solid #F3F4F6;
+    margin-top: 8px;
+    font-size: 13px;
+}
+
+.storeBoxMemo{
+    margin-top: 8px;
+    font-size: 13px;
+}
+
+.investInfo{
+    width: 1103px;
+    height: 470px;
+    background: #fff;
+    border: 1px solid #D1D5DC;
+    border-radius: 5px;
+    margin-left: 10px;
+    padding: 10px;
+    font-size: 13px;
+}
+
+.investTitle{
+    font-weight: 700;
+    color: #333;
+    margin-left: 10px;
+}
+
+.investDetailWrap{
+    padding: 10px;
+}
+
+.investDetail{
+    width: 50%;
+    border-top: 1px solid #F3F4F6;
+}
+
+.detailBox{
+    height: 34px;
+    border-bottom: 1px solid #F3F4F6;
+    margin-top: 8px;
+}
+
+.inputType1{
+    width: 150px;
+    border: 1px solid #D1D5DC;
+    height: 26px;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+.inputType2{
+    width: 100px;
+    border: 1px solid #D1D5DC;
+    height: 26px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.unitTextMan{
+    top: 0;
+    left: 115px;
+}
+.unitTextPer{
+    top: 0;
+    left: 250px;
+}
+.franInveDetailWrap{
+    background: #F4F5F7;
+    padding: 10px;
+    border-radius: 10px;
+}
+.franInveDetail{
+    width: 50%;
+}
+
+.franTextArea{
+    width: 510px;
+    height: 150px;
+    margin-top: 8px;
+    border-radius: 5px;
+}
+
+.storeLocation{
+    /* width: 1536px;
+    height: 400px; */
+    margin-top: 10px;
+    background: #fff;
+    border: 1px solid #E5E7EB;
+    border-radius: 5px;
+    padding: 20px;
+}
+.locationTitle{
+    font-size: 16px;
+    color: #333;
+}
+.locationText{
+    font-size: 12px;
+    color: gray;
+    margin-top: 10px;
+}
+.imgRegiBtnWrap{
+    width: 84px;
+    height: 33px;
+    background: #DBEAFE;
+    color: #1D4ED8;
+    font-size: 11px;
+    margin-top: 10px;
+}
+.imgRegiBtn{
+    margin-left: 18px;
+    margin-top: 4px;
+}
+
+.locationDetail{
+    width: 50%;
+}
+
+.storeImgWrap{
+    margin-top: 15px;
+}
+.storeImg{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.locationRegi{
+    width: 100%;
+    height: 326px;
+    background: #F3F4F6;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.locationRegiBtnWrap{
+    justify-content: center;
+    padding-top: 155px;
+}
+.locRegiBtn{
+    background: #4676FB;
+    width: 175px;
+    height: 45px;
+    color: #fff;
+    font-size: 13px;
+    margin: 0 auto;
+    border-radius: 10px;
+    justify-content: space-evenly;
+    align-items: center;
+    cursor: pointer;
+}
+.regiLocImg{
+    width: 24px;
+    height: 24px;
+}
+
+.clentText{
+    margin-left: 15px;
+}
+
+.clientRegi{
+    width: 110px;
+    height: 36px;
+    background-image: linear-gradient(90deg, #595AD3 20% , #157EFB 80%);
+    color: #fff;
+    border-radius: 5px;
+    font-size: 14px;
+}
+.clientManage{
+    width: 1536px;
+    height: auto;
+    margin-top: 30px;
+    padding-bottom: 30px;
+}
+
+.clentText{
+    color: #333;
+    font-size: 16px;
+}
+.clientTable{
+    margin-top: 10px;
+    width: 1536px;
+    height: auto;
+    background-color: #fff;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    color: #333;
+    font-size: 13px;
+}
+
+.clientTr{
+    width: 100%;
+    height: 43px;
+    background-color: #F9FAFB;
+    border: 1px solid #D2D6DC;
+}
+
+.tableInput {
+    width: 100px;
+    height: 26px;
+    border: 1px solid #D1D5DC;
+    border-radius: 5px;
+}
+
+.memoInput{
+    width: 220px;
+    height: 26px;
+    border: 1px solid #D1D5DC;
+    border-radius: 5px;
+}
+
+.tableLine{
+    height: 46px;
+    border-bottom: 1px solid #E5E7EB;
+}
+
+/* 매장 관리 END */
+
+/* 투자내역 START */
+.invInput{
+    width: 150px;
+    height: 26px;
+    border: 1px solid #D1D5DC;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.ml-6r {
+    margin-left: 6rem;
+}
+/* 투자내역 END */
+
+/* 점주 서류 */
+.font-black-bold {
+    font-weight: bold;
+    color: #000;
+}
+
+.h162{
+    height: 162px;
+}
+
+.statusBox{
+    border: 1px solid #ddd;
+    width: 50px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 10px;
+    height: 22px;
+}
+.done{
+    border: 1px solid #ddd;
+    color : #fff;
+    background-color: #ddd;
+}
+.ing{
+    border-radius: 1px solid #00AF66;
+    color : #00AF66;
+    background-color: rgba(0,175,102,0.1);
+}
+#kakaoMap{
+    height: 326px;
+    width: 100%;
+}
+.close{
+    color: #000;
+    float: right;
+    font-size: 16px;
+    margin-right: 35px;
+    font-weight: bold;
+    cursor: pointer;
+    height: 20px;
+    margin-top: 5px;
+}
+
+/* 매장 관리 */
+.addrChange{
+    color: #3D73FF;
+    cursor: pointer;
+}
+
+/* 매출 정보 */
+.saleSearchWrap{
+    height: 54px;
+    border: 1px solid #4676FB;
+    border-radius: 10px;
+    align-items: center;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.saleSelect{
+    width: 122px;
+    height: 30px;
+    color: #ccc;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+.saleClickBtn{
+    width: 100px;
+    height: 30px;
+    background-color: #4676FB;
+    color: #fff;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bolder;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.saleSearchImg{
+    height: 20px;
+}
+
+.saleNavContainer{
+    width: 100%;
+    padding-top: 10px;
+    border-bottom: 1px solid rgb(226 232 240 / var(--tw-border-opacity));
+    margin-bottom: 15px;
+}
+.saleDetailBtn{
+    width: 100px;
+    height: 30px;
+    background-color: #1377C9;
+    color: #fff;
+    border-radius: 10px;
+    font-size: 13px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.saleSearchBtn{
+    width: 80px;
+    background: #4676FB;
+    height: 30px;
+    border-radius: 10px;
+    color: #fff;
+    margin-right: 30px;
+}
+.saleSearchBtn img{
+    height: 20px;
+}
+
+.fc .fc-scroller-liquid-absolute{
+    overflow-y: hidden !important;
+}
+
+.closeBtn{
+    position: absolute;
+    right: 20px;
+    cursor: pointer;
+}
+
+.spendInput{
+    width: 250px;
+    height: 30px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+.spendDiv{
+    width: 250px;
+    height: 30px;
+    border: 1px solid #ddd;
+    border-radius: 10px;  
+}
+
+.spendConWrap{
+    border: 1px solid #DDDDDD;
+    border-radius: 10px;
+    overflow: scroll;
+    overflow-x: hidden;
+    height: 300px;
+}
+.spendConWrap::-webkit-scrollbar {
+    display: none;
+  }
+.plusBtn {
+  width: 25px;  
+  height: 25px;
+  border-radius: 50%;
+  background-color: #157EFB;
+}
+.minusBtn {
+  width: 25px;  
+  height: 25px;
+  border-radius: 50%;
+  background-color: #CA5B5B;
+}
+.fontWhite{
+    color: #fff;
+    font-size: 24px;
+}
+.tableSet{
+    height: 450px !important;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.tableSet::-webkit-scrollbar {
+    display: none;
+}
+
+.salesInput{
+    width: 150px;
+    height: 30px;
+    border: 1px solid #ccc;
+}
+
+.saleTimeBox{
+    width: 80px;
+    height: 30px;
+    border: 1px solid #ccc;
+}
